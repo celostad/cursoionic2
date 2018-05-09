@@ -38,12 +38,12 @@
         
         <ion-row>
           <ion-col width-50>
-            <button ion-button full>
+            <button ion-button full class="btnLogin">
               Login com Facebook
             </button>
           </ion-col>
           <ion-col width-50>
-            <button ion-button full>
+            <button ion-button full class="btnLogin">
               Login com Google
             </button>
           </ion-col>
@@ -51,7 +51,7 @@
         
         <ion-row>
           <ion-col>
-            <a>Registrar-se</a>
+            <a (click)="doRegister()">Registrar-se</a>
           </ion-col>
         </ion-row>
       </ion-grid>
