@@ -1,0 +1,8 @@
+{
+  "name": "ListadorDeTarefas",
+  "app_id": "889f8f0c",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
